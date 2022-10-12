@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    --font-family: 'Mark Pro', sans-serif;
+}
+
+section img{
+    max-width: 100%;
+}
+
+.description{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.description h1 strong{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.7em;
+    letter-spacing: -.05em;
+}
+
+.description span{
+    text-align: center;
+}
+
+button.btn.btn-primary{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button.btn.btn-primary a{
+    text-decoration: none;
+    color: white;
+}
+
