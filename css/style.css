@@ -14,7 +14,7 @@ section img{
 
 .description{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .description h1 strong{
@@ -45,9 +45,9 @@ button.btn.btn-primary a{
     left: -10;
     margin-right: 100px;
     max-width: 100%;
-    top: 650px;
-    width: 50%;
-    height: 80%;
+    top: 750px;
+    width: 60%;
+    height: 100%;
     z-index: -2;
     box-sizing: border-box;
     overflow: hidden;
@@ -57,7 +57,7 @@ button.btn.btn-primary a{
     content: url(/img/viking2.jpg);
     background-repeat: no-repeat;
     position: absolute;
-    right: 0;
+    right: -0;
     margin-right: 0px;
     max-width: 100%;
     top: 650px;
@@ -66,4 +66,21 @@ button.btn.btn-primary a{
     z-index: -2;
     box-sizing: border-box;
     overflow: hidden;
+}
+
+.col-4{
+    box-sizing: border-box  ;
+    justify-self: right;
+    justify-content: flex-start;
+    float: right;
+    margin-right: 200px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50px;
+    margin-top: 160px;
+}
+
+.markets{
+    padding: 50px;
+    margin-right: 50px;
 }
