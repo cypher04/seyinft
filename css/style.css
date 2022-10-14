@@ -1,5 +1,6 @@
 *{
-    --font-family: 'Mark Pro', sans-serif;
+    /*--font-family: 'Mark Pro', sans-serif;*/
+    font-family: 'Caesar Dressing', cursive;
 }
 
 html body{
@@ -22,6 +23,8 @@ section img{
     text-align: center;
     font-size: 1.7em;
     letter-spacing: -.05em;
+    font-size: 3em;
+    
 }
 
 .description span{
@@ -39,48 +42,113 @@ button.btn.btn-primary a{
 }
 
 .first-back{
-    content: url(/img/viking1.jpg);
+    content: url(/img/gate.png);
     background-repeat: no-repeat;
     position: absolute;
     left: -10;
     margin-right: 100px;
     max-width: 100%;
-    top: 750px;
-    width: 60%;
-    height: 100%;
+    top: 1400px;
+    width: 30%;
+    height: 20%;
     z-index: -2;
     box-sizing: border-box;
     overflow: hidden;
 }
 
-.second-back{
-    content: url(/img/viking2.jpg);
-    background-repeat: no-repeat;
-    position: absolute;
-    right: -0;
-    margin-right: 0px;
-    max-width: 100%;
-    top: 650px;
-    width: 50%;
-    height: 80%;
-    z-index: -2;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-.col-4{
+.col-sm-6{
     box-sizing: border-box  ;
     justify-self: right;
     justify-content: flex-start;
     float: right;
-    margin-right: 200px;
+    /*margin-right: 200px;
     border-color: white;
-    border-style: solid;
+    border-style: solid;*/
     border-radius: 50px;
-    margin-top: 160px;
+    
 }
 
 .markets{
-    padding: 50px;
-    margin-right: 50px;
+    padding-left: 80px;
+    margin-top: 220px;
 }
+
+@media only screen and (max-width: 960px){
+.markets{
+    padding-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+}
+
+.back-pic img{
+    border-bottom-left-radius: -100px;
+    border-bottom-right-radius: -100px;
+}
+
+.col-md-6 img{
+    width: 110%;
+    height: 80%;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 960px){
+    .col-md-6 img{
+        width: 100%;
+        height: 80%;
+        margin-top: 30px;
+    }
+}
+
+
+.col-sm-4 img{
+    width: 80%;
+    height: 70%;
+    margin-top: 30px;
+}
+
+.card2 img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card3 img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div.card2{
+    box-sizing: border-box;
+    width: 300px;
+    color: rgb(255, 255, 255);
+    background: black;
+    border-radius: 30px;
+    box-shadow: 10px 20px 50px rgb(42, 95, 187);
+    margin-left: 50px;  
+    margin: auto;  
+}
+
+div.card3{
+    box-sizing: border-box;
+    width: 300px;
+    color: rgb(255, 255, 255);
+    background: black;
+    border-radius: 30px;
+    box-shadow: 10px 20px 50px rgb(224, 59, 227);
+    margin-left: 50px;  
+    margin: auto;  
+}
+
+
+
+.col-md-20{
+    padding-bottom: 50px;
+}
+
+
