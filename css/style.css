@@ -3,6 +3,34 @@
     font-family: 'Caesar Dressing', cursive;
 }
 
+::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    width: calc(2px * 2);
+    border: 2px solid rgba(26, 26, 26, 0);
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+    background: transparent;
+    width: calc(2px / 2);
+    border: 2px solid rgba(26, 26, 26, 0);
+  }
+  
+
 html body{
     box-sizing: border-box;
     background-color: black;
@@ -16,6 +44,7 @@ section img{
 .description{
     text-align: center;
     margin-top: 80px;
+    
 }
 
 .description h1 strong{
@@ -24,7 +53,7 @@ section img{
     font-size: 1.7em;
     letter-spacing: -.05em;
     font-size: 3em;
-    
+    color: #EB1C22;
 }
 
 .description span{
@@ -39,6 +68,7 @@ button.btn.btn-primary{
 button.btn.btn-primary a{
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 .first-back{
@@ -81,9 +111,10 @@ button.btn.btn-primary a{
 }
 }
 
-.back-pic img{
+.back-pic{
     border-bottom-left-radius: -100px;
     border-bottom-right-radius: -100px;
+    
 }
 
 .col-md-6 img{
@@ -94,7 +125,7 @@ button.btn.btn-primary a{
 
 @media only screen and (max-width: 960px){
     .col-md-6 img{
-        width: 100%;
+        width: 90%;
         height: 90%;
         margin-top: 30px;
     }
@@ -129,9 +160,14 @@ div.card2{
     color: rgb(255, 255, 255);
     background: black;
     border-radius: 30px;
-    box-shadow: 10px 20px 50px rgb(42, 95, 187);
+    box-shadow: 10px 20px 80px rgb(42, 95, 187);
     margin-left: 50px;  
     margin: auto;  
+}
+
+div.card2:hover{
+    color: black;
+    cursor: pointer;
 }
 
 div.card3{
@@ -140,7 +176,7 @@ div.card3{
     color: rgb(255, 255, 255);
     background: black;
     border-radius: 30px;
-    box-shadow: 10px 20px 50px rgb(224, 59, 227);
+    box-shadow: 10px 20px 80px rgb(169, 49, 171);
     margin-left: 50px;  
     margin: auto;  
 }
@@ -148,7 +184,64 @@ div.card3{
 
 
 .col-md-20{
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
+h1.fight{
+    text-align: right;
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 960px){
+h1.fight{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+}
+
+h1.fight strong{
+    text-align: right;
+    font-size: 150%;
+    color: #EB1C22;
+}
+
+h1.together{
+    font-size: 100px;
+}
+
+@media screen and (max-width: 960px) {
+h1.together strong{
+    font-size: 70%;
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 960px) {
+    h1.together{
+        text-align: center;
+    }
+    }
+
+@media screen and (max-width: 960px) {
+    .col-md-20{
+        padding-bottom: 10px;
+    }
+    }
+
+h1.poly{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer{
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .footer{
+        text-align: center;
+    }
+}
 
