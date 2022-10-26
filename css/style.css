@@ -43,7 +43,7 @@ section img{
 
 .description{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     
 }
 
@@ -54,6 +54,7 @@ section img{
     letter-spacing: -.05em;
     font-size: 3em;
     color: #EB1C22;
+    line-height: 1em;
 }
 
 .description span{
@@ -117,6 +118,7 @@ button.btn.btn-primary a{
     border-bottom-left-radius: -100px;
     border-bottom-right-radius: -100px;
 }
+
 
 .col-md-6 img{
     width: 110%;
