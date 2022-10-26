@@ -101,6 +101,7 @@ button.btn.btn-primary a{
 .markets{
     padding-left: 80px;
     margin-top: 220px;
+    border-radius: 50px;
 }
 
 @media only screen and (max-width: 960px){
@@ -237,7 +238,7 @@ h1.poly{
 
 @media screen and (max-width: 960px) {
     h1.poly{
-        margin-top: 100px;
+        margin-top: 50px;
     }
 }
 
