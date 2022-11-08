@@ -279,14 +279,15 @@ h1.together strong{
 
 .scroll img{
     width: 90%;
+    height: 10%;
     margin-left: 70px;
 }
 
 .scroll h1{
     text-align: center;
     position: absolute;
-    margin-left: 140px;
-    top: 150px;
+    margin-left: 200px;
+    top: 110px;
     color: rgb(0, 0, 0);
 }
 
@@ -294,18 +295,19 @@ h1.together strong{
     .scroll img{
         margin-left: 14px;
         width: 95%;
+        height: 20%;
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
     .scroll h1{
         text-align: center;
         top: 0px;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 60px;
+        padding-top: 35px;
         font-size: 16px;
-        padding-left: 30px;
+        padding-left: 60px;
     }
 }
 
